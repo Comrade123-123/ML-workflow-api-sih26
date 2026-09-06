@@ -1,6 +1,8 @@
 # Environment / secrets
 .env
 .env.*
+# .env.example is a secret-free template meant to be committed and shared.
+!.env.example
 
 # Python virtual environments
 .venv/
