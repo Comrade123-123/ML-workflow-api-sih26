@@ -1,0 +1,121 @@
+{
+  "file": "Expenditure_Cleaned.csv",
+  "row_count": 73000,
+  "columns": [
+    "Sr. No.",
+    "Work Type",
+    "Work ID",
+    "State",
+    "IDA District",
+    "IDA Office",
+    "Hon'ble Members of Parliament",
+    "Constituency",
+    "Expenditure Date",
+    "Vendor Name",
+    "Payment Status",
+    "Fund Disbursed Amount (INR)"
+  ],
+  "column_profiles": {
+    "Sr. No.": {
+      "dtype": "int64",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 73000
+    },
+    "Work Type": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 107
+    },
+    "Work ID": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 49104
+    },
+    "State": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 35
+    },
+    "IDA District": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 730
+    },
+    "IDA Office": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 733
+    },
+    "Hon'ble Members of Parliament": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 527
+    },
+    "Constituency": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 527
+    },
+    "Expenditure Date": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 678,
+      "date_parseable_pct": 100.0,
+      "min_date": "2024-08-02 00:00:00",
+      "max_date": "2026-09-02 00:00:00"
+    },
+    "Vendor Name": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 22601
+    },
+    "Payment Status": {
+      "dtype": "str",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 2,
+      "top_values": {
+        "Payment Success": 69537,
+        "Payment In-Progress": 3463
+      }
+    },
+    "Fund Disbursed Amount (INR)": {
+      "dtype": "float64",
+      "n": 73000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 28271,
+      "numeric_parseable_pct": 100.0,
+      "min": 1.0,
+      "max": 20786350.0,
+      "mean": 322093.47098150686,
+      "median": 189000.0,
+      "n_negative": 0,
+      "n_zero": 0
+    }
+  },
+  "unique_work_ids": 49104,
+  "duplicate_work_id_rows": 23896,
+  "work_id_missing": 0
+}

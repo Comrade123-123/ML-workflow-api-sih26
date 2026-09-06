@@ -1,0 +1,15 @@
+{
+  "trained_at": "2026-09-05T23:26:41.972859+00:00",
+  "model_version": "2026-09-05T23:26:41.972859+00:00",
+  "dataset_path": "C:\\Users\\manas\\OneDrive\\Desktop\\ml-workflow\\data\\mplads_option2\\datasets\\work_level_completed_dataset.csv",
+  "dataset_filename": "work_level_completed_dataset.csv",
+  "dataset_sha256": "dd52886264295eb2264f120a92407b4a5c1371e84fc8d053e07c04b53bd67f31",
+  "dataset_row_count": 14965,
+  "dataset_target": "has_underspend",
+  "dataset_target_positive_rate": 0.05706648847310391,
+  "source_files": [
+    "Data/Works_Recommended_Cleaned.csv",
+    "Data/Works_Completed_Cleaned.csv"
+  ],
+  "training_prediction_point": "sanction_time"
+}

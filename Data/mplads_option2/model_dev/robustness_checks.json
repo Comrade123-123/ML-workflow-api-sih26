@@ -1,0 +1,86 @@
+{
+  "alternative_cutoffs": {
+    "primary_70_15_15": {
+      "n_train": 10475,
+      "n_test": 2245,
+      "train_positive_rate": 0.0482,
+      "test_positive_rate": 0.0953,
+      "roc_auc": 0.644,
+      "pr_auc": 0.1849
+    },
+    "alt_60_20_20": {
+      "n_train": 8979,
+      "n_test": 2993,
+      "train_positive_rate": 0.0491,
+      "test_positive_rate": 0.0859,
+      "roc_auc": 0.6803,
+      "pr_auc": 0.1876
+    },
+    "alt_80_10_10": {
+      "n_train": 11972,
+      "n_test": 1497,
+      "train_positive_rate": 0.0499,
+      "test_positive_rate": 0.0655,
+      "roc_auc": 0.7947,
+      "pr_auc": 0.2264
+    },
+    "alt_50_25_25": {
+      "n_train": 7482,
+      "n_test": 3742,
+      "train_positive_rate": 0.0533,
+      "test_positive_rate": 0.0764,
+      "roc_auc": 0.6656,
+      "pr_auc": 0.1668
+    }
+  },
+  "feature_ablation": {
+    "all_features": {
+      "n_train": 10475,
+      "n_test": 2245,
+      "train_positive_rate": 0.0482,
+      "test_positive_rate": 0.0953,
+      "roc_auc": 0.644,
+      "pr_auc": 0.1849
+    },
+    "no_historical_rates": {
+      "n_train": 10475,
+      "n_test": 2245,
+      "train_positive_rate": 0.0482,
+      "test_positive_rate": 0.0953,
+      "roc_auc": 0.6294,
+      "pr_auc": 0.1857
+    },
+    "no_state_categorical": {
+      "n_train": 10475,
+      "n_test": 2245,
+      "train_positive_rate": 0.0482,
+      "test_positive_rate": 0.0953,
+      "roc_auc": 0.6278,
+      "pr_auc": 0.1505
+    },
+    "amount_and_timing_only": {
+      "n_train": 10475,
+      "n_test": 2245,
+      "train_positive_rate": 0.0482,
+      "test_positive_rate": 0.0953,
+      "roc_auc": 0.4269,
+      "pr_auc": 0.0889
+    },
+    "historical_rates_only": {
+      "n_train": 10475,
+      "n_test": 2245,
+      "train_positive_rate": 0.0482,
+      "test_positive_rate": 0.0953,
+      "roc_auc": 0.6548,
+      "pr_auc": 0.1439
+    },
+    "state_categorical_only": {
+      "n_train": 10475,
+      "n_test": 2245,
+      "train_positive_rate": 0.0482,
+      "test_positive_rate": 0.0953,
+      "roc_auc": 0.6231,
+      "pr_auc": 0.1895
+    }
+  }
+}

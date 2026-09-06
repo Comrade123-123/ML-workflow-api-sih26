@@ -1,0 +1,55 @@
+{
+  "file": "Allocated_Limit_LokSabha_Cleaned.csv",
+  "row_count": 543,
+  "columns": [
+    "Sr. No.",
+    "State",
+    "MP Name",
+    "Constituency",
+    "Allocated Amount (INR)"
+  ],
+  "column_profiles": {
+    "Sr. No.": {
+      "dtype": "int64",
+      "n": 543,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 543
+    },
+    "State": {
+      "dtype": "str",
+      "n": 543,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 36
+    },
+    "MP Name": {
+      "dtype": "str",
+      "n": 543,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 543
+    },
+    "Constituency": {
+      "dtype": "str",
+      "n": 543,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 542
+    },
+    "Allocated Amount (INR)": {
+      "dtype": "float64",
+      "n": 543,
+      "missing": 1,
+      "missing_pct": 0.184,
+      "n_unique": 152,
+      "numeric_parseable_pct": 99.816,
+      "min": 49000000.0,
+      "max": 327477390.86,
+      "mean": 153469655.5824908,
+      "median": 147000000.0,
+      "n_negative": 0,
+      "n_zero": 0
+    }
+  }
+}

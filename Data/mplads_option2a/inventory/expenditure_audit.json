@@ -1,0 +1,53 @@
+{
+  "n_payments_distribution": {
+    "min": 1,
+    "p25": 1.0,
+    "median": 1.0,
+    "p75": 2.0,
+    "p95": 3.0,
+    "p99": 9.970000000001164,
+    "max": 49,
+    "pct_single_payment_works": 74.648
+  },
+  "n_vendors_distribution": {
+    "pct_single_vendor_works": 94.546,
+    "median_vendors": 1.0,
+    "max_vendors": 35
+  },
+  "max_payment_share_distribution": {
+    "note": "share of total work disbursement carried by its single largest payment -- 1.0 for single-payment works by construction",
+    "median": 1.0,
+    "p25": 0.9884,
+    "p10": 0.6
+  },
+  "span_days_distribution": {
+    "note": "0 for single-payment works by construction",
+    "median": 0.0,
+    "p75": 0.0,
+    "p95": 199.0,
+    "max": 665.0,
+    "pct_zero_span": 77.745
+  },
+  "payment_status_in_progress": {
+    "overall_pct_rows_in_progress": 4.744,
+    "pct_works_with_any_in_progress": 5.741
+  },
+  "vendor_concentration": {
+    "n_unique_vendors": 22601,
+    "top_10_vendor_share_of_total_disbursement_pct": 3.843,
+    "top_1pct_vendor_share_of_total_disbursement_pct": 27.341,
+    "vendors_appearing_only_once": 12818,
+    "vendors_appearing_only_once_pct": 56.714,
+    "max_vendor_n_payments": 789,
+    "max_vendor_n_distinct_works": 785
+  },
+  "vendor_breadth": {
+    "vendors_spanning_gt5_states": 0,
+    "vendors_spanning_gt10_mps": 0,
+    "max_states_single_vendor": 5,
+    "max_mps_single_vendor": 10
+  },
+  "expenditure_before_sanction_violations": 0,
+  "n_expenditure_rows_checked_against_sanction": 64960,
+  "single_payment_on_sanction_date_pct_of_single_payment_works": 3.576
+}

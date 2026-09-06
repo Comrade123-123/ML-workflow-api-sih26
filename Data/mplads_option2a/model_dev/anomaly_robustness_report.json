@@ -1,0 +1,38 @@
+{
+  "seed_stability": {
+    "seed_1_overlap_with_primary_pct": 87.8,
+    "seed_7_overlap_with_primary_pct": 84.55,
+    "seed_123_overlap_with_primary_pct": 83.74,
+    "seed_2024_overlap_with_primary_pct": 89.43
+  },
+  "seed_stability_spearman": {
+    "seed_1_spearman_vs_primary": 0.97,
+    "seed_7_spearman_vs_primary": 0.976,
+    "seed_123_spearman_vs_primary": 0.9614,
+    "seed_2024_spearman_vs_primary": 0.9744
+  },
+  "feature_ablation_agreement": {
+    "worktype_only_vs_combined_spearman": 0.8453,
+    "state_only_vs_combined_spearman": 0.8914,
+    "worktype_only_vs_state_only_spearman": 0.6038
+  },
+  "peer_stat_baseline_vs_iforest_spearman": 0.8411,
+  "top1pct_overlap_iforest_vs_statbaseline_pct": 43.9,
+  "top1pct_vs_rest_raw_scale_comparison": {
+    "false": {
+      "n": 12263,
+      "median_recommended_amount": 275555.0,
+      "median_n_payments": 1.0,
+      "median_n_vendors": 1.0,
+      "median_span_days": 0.0
+    },
+    "true": {
+      "n": 123,
+      "median_recommended_amount": 500000.0,
+      "median_n_payments": 3.0,
+      "median_n_vendors": 2.0,
+      "median_span_days": 126.0
+    }
+  },
+  "temporal_stability_spearman_early_vs_late_model": 0.89
+}

@@ -1,0 +1,277 @@
+{
+  "ratio_distribution_percentiles": {
+    "1": 0.9093,
+    "5": 0.9986,
+    "10": 1.0,
+    "25": 1.0,
+    "50": 1.0,
+    "75": 1.0,
+    "90": 1.0,
+    "95": 1.0,
+    "99": 1.0,
+    "100": 1.0
+  },
+  "ratio_value_counts_rounded": {
+    "1.0": 14492,
+    "0.99": 122,
+    "0.98": 90,
+    "0.97": 40,
+    "0.96": 18,
+    "0.95": 14,
+    "0.94": 14,
+    "0.93": 5,
+    "0.92": 8,
+    "0.91": 11,
+    "0.9": 10,
+    "0.89": 36,
+    "0.88": 6,
+    "0.87": 4,
+    "0.86": 5,
+    "0.85": 5,
+    "0.83": 2,
+    "0.82": 2,
+    "0.81": 4,
+    "0.8": 5
+  },
+  "n_below": 854,
+  "underspend_pct_histogram_below_subset": [
+    650,
+    45,
+    65,
+    14,
+    13,
+    10,
+    17,
+    9,
+    3,
+    8,
+    3,
+    1,
+    10,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    3
+  ],
+  "underspend_pct_bin_edges": [
+    0.1,
+    4.19,
+    8.27,
+    12.36,
+    16.45,
+    20.53,
+    24.62,
+    28.7,
+    32.79,
+    36.87,
+    40.96,
+    45.04,
+    49.13,
+    53.22,
+    57.3,
+    61.39,
+    65.47,
+    69.56,
+    73.64,
+    77.73,
+    81.81
+  ],
+  "underspend_rate_by_work_type_min30": {
+    "Purchase of IT systems, including hardware and software for educational purposes": {
+      "n": 86,
+      "underspend_rate": 0.1977
+    },
+    "Providing drains and gutters for public drainage": {
+      "n": 138,
+      "underspend_rate": 0.1522
+    },
+    "Installing tube-wells and borewells": {
+      "n": 533,
+      "underspend_rate": 0.1276
+    },
+    "Construction of public libraries and reading rooms": {
+      "n": 33,
+      "underspend_rate": 0.1212
+    },
+    "Development of playground": {
+      "n": 44,
+      "underspend_rate": 0.1136
+    },
+    "Crematoriums/energy efficient crematoriums or structures on burial/cremation ground": {
+      "n": 118,
+      "underspend_rate": 0.1102
+    },
+    "Construction of community centers and community halls": {
+      "n": 615,
+      "underspend_rate": 0.1089
+    },
+    "Construction of toilet blocks": {
+      "n": 43,
+      "underspend_rate": 0.093
+    },
+    "Construction of boundary walls of existing public and community buildings": {
+      "n": 187,
+      "underspend_rate": 0.0909
+    },
+    "Construction of rooms and halls in school and colleges": {
+      "n": 217,
+      "underspend_rate": 0.0876
+    },
+    "Purchase of hospital equipment": {
+      "n": 50,
+      "underspend_rate": 0.08
+    },
+    "Construction of additional rooms and halls in the existing public and community building": {
+      "n": 52,
+      "underspend_rate": 0.0769
+    },
+    "Construction of footpaths and pedestrian ways": {
+      "n": 108,
+      "underspend_rate": 0.0741
+    },
+    "Street lights": {
+      "n": 2414,
+      "underspend_rate": 0.0671
+    },
+    "Construction of common work sheds/ common covered sitting area": {
+      "n": 315,
+      "underspend_rate": 0.0635
+    }
+  },
+  "underspend_rate_by_work_type_min30_bottom": {
+    "Installing community drinking water plants": {
+      "n": 247,
+      "underspend_rate": 0.004
+    },
+    "Development of public parks": {
+      "n": 53,
+      "underspend_rate": 0.0
+    },
+    "Installation of fixed garden gym equipment": {
+      "n": 89,
+      "underspend_rate": 0.0
+    },
+    "Installation of multi-gym equipment": {
+      "n": 37,
+      "underspend_rate": 0.0
+    },
+    "Purchase Books for Library": {
+      "n": 77,
+      "underspend_rate": 0.0
+    },
+    "Purchase of mobile water tankers": {
+      "n": 797,
+      "underspend_rate": 0.0
+    },
+    "Purchase of non-conventional energy system and devices for community use": {
+      "n": 42,
+      "underspend_rate": 0.0
+    },
+    "Purchase of prosthetics, wheel chairs, tricycles (manual or motorized), elect scooties, hearing aids": {
+      "n": 72,
+      "underspend_rate": 0.0
+    },
+    "Purchase of smart boards, visual display units and projectors": {
+      "n": 306,
+      "underspend_rate": 0.0
+    },
+    "Setting up of laboratories": {
+      "n": 183,
+      "underspend_rate": 0.0
+    }
+  },
+  "underspend_rate_by_state_min30_top": {
+    "Telangana": {
+      "n": 979,
+      "underspend_rate": 0.285
+    },
+    "Jammu And Kashmir": {
+      "n": 97,
+      "underspend_rate": 0.1856
+    },
+    "Assam": {
+      "n": 119,
+      "underspend_rate": 0.1765
+    },
+    "Maharashtra": {
+      "n": 146,
+      "underspend_rate": 0.1438
+    },
+    "Manipur": {
+      "n": 31,
+      "underspend_rate": 0.129
+    },
+    "Andhra Pradesh": {
+      "n": 464,
+      "underspend_rate": 0.1185
+    },
+    "Rajasthan": {
+      "n": 474,
+      "underspend_rate": 0.1139
+    },
+    "West Bengal": {
+      "n": 1120,
+      "underspend_rate": 0.0893
+    },
+    "Haryana": {
+      "n": 155,
+      "underspend_rate": 0.0839
+    },
+    "Karnataka": {
+      "n": 299,
+      "underspend_rate": 0.0602
+    }
+  },
+  "underspend_rate_by_state_min30_bottom": {
+    "Arunachal Pradesh": {
+      "n": 42,
+      "underspend_rate": 0.0238
+    },
+    "Tamil Nadu": {
+      "n": 994,
+      "underspend_rate": 0.0151
+    },
+    "Gujarat": {
+      "n": 913,
+      "underspend_rate": 0.0142
+    },
+    "Jharkhand": {
+      "n": 261,
+      "underspend_rate": 0.0115
+    },
+    "Mizoram": {
+      "n": 102,
+      "underspend_rate": 0.0098
+    },
+    "Odisha": {
+      "n": 231,
+      "underspend_rate": 0.0043
+    },
+    "Bihar": {
+      "n": 939,
+      "underspend_rate": 0.0032
+    },
+    "Punjab": {
+      "n": 795,
+      "underspend_rate": 0.0025
+    },
+    "Meghalaya": {
+      "n": 111,
+      "underspend_rate": 0.0
+    },
+    "Nagaland": {
+      "n": 38,
+      "underspend_rate": 0.0
+    }
+  },
+  "corr_underspend_pct_vs_recommended_amount": 0.002,
+  "underspend_pct_full_population_stats": {
+    "mean": 0.2939,
+    "std": 2.84,
+    "min": 0.0,
+    "max": 81.8139
+  }
+}

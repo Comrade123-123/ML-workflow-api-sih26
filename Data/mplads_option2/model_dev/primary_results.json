@@ -1,0 +1,82 @@
+{
+  "baseline_majority": {
+    "accuracy": 0.9047,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "pr_auc": 0.0953,
+    "confusion_matrix": [
+      [
+        2031,
+        0
+      ],
+      [
+        214,
+        0
+      ]
+    ],
+    "n": 2245,
+    "n_positive": 214
+  },
+  "logistic_regression": {
+    "accuracy": 0.7029,
+    "precision": 0.1732,
+    "recall": 0.5607,
+    "f1": 0.2646,
+    "roc_auc": 0.6628,
+    "pr_auc": 0.1693,
+    "confusion_matrix": [
+      [
+        1458,
+        573
+      ],
+      [
+        94,
+        120
+      ]
+    ],
+    "n": 2245,
+    "n_positive": 214
+  },
+  "random_forest": {
+    "accuracy": 0.6771,
+    "precision": 0.1643,
+    "recall": 0.5841,
+    "f1": 0.2564,
+    "roc_auc": 0.644,
+    "pr_auc": 0.1849,
+    "confusion_matrix": [
+      [
+        1395,
+        636
+      ],
+      [
+        89,
+        125
+      ]
+    ],
+    "n": 2245,
+    "n_positive": 214
+  },
+  "xgboost": {
+    "accuracy": 0.7207,
+    "precision": 0.1696,
+    "recall": 0.4953,
+    "f1": 0.2527,
+    "roc_auc": 0.656,
+    "pr_auc": 0.1479,
+    "confusion_matrix": [
+      [
+        1512,
+        519
+      ],
+      [
+        108,
+        106
+      ]
+    ],
+    "n": 2245,
+    "n_positive": 214
+  }
+}

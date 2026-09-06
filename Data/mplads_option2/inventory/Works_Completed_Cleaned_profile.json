@@ -1,0 +1,134 @@
+{
+  "file": "Works_Completed_Cleaned.csv",
+  "row_count": 15000,
+  "columns": [
+    "Sr. No.",
+    "Work Category",
+    "Work ID",
+    "Work Type",
+    "Work Description",
+    "State",
+    "IDA District",
+    "IDA Office",
+    "Hon'ble Members of Parliament",
+    "Constituency",
+    "Has Image",
+    "Completion Date",
+    "Amount Disbursed (INR)"
+  ],
+  "column_profiles": {
+    "Sr. No.": {
+      "dtype": "int64",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 15000
+    },
+    "Work Category": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 3,
+      "top_values": {
+        "Normal/Others": 14827,
+        "Repair and Renovation": 145,
+        "Trust and Society": 28
+      }
+    },
+    "Work ID": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 15000
+    },
+    "Work Type": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 95
+    },
+    "Work Description": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 55,
+      "missing_pct": 0.367,
+      "n_unique": 13551
+    },
+    "State": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 32
+    },
+    "IDA District": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 524
+    },
+    "IDA Office": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 525
+    },
+    "Hon'ble Members of Parliament": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 416
+    },
+    "Constituency": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 416
+    },
+    "Has Image": {
+      "dtype": "bool",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 2,
+      "top_values": {
+        "True": 9948,
+        "False": 5052
+      }
+    },
+    "Completion Date": {
+      "dtype": "str",
+      "n": 15000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 573,
+      "date_parseable_pct": 100.0,
+      "min_date": "2024-08-12 00:00:00",
+      "max_date": "2026-09-02 00:00:00"
+    },
+    "Amount Disbursed (INR)": {
+      "dtype": "float64",
+      "n": 15000,
+      "missing": 5,
+      "missing_pct": 0.033,
+      "n_unique": 5417,
+      "numeric_parseable_pct": 99.967,
+      "min": 10000.0,
+      "max": 46470400.0,
+      "mean": 501043.6387062354,
+      "median": 269328.0,
+      "n_negative": 0,
+      "n_zero": 0
+    }
+  },
+  "unique_work_ids": 15000,
+  "duplicate_work_id_rows": 0,
+  "work_id_missing": 0
+}

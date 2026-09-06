@@ -1,0 +1,32 @@
+{
+  "n_rows": 12386,
+  "n_completed_works_total": 14965,
+  "ledger_coverage_pct": 82.766,
+  "raw_signal_stats": {
+    "n_payments": {
+      "median": 1.0,
+      "p95": 2.0,
+      "max": 34.0
+    },
+    "n_vendors": {
+      "median": 1.0,
+      "p95": 1.0,
+      "max": 32.0
+    },
+    "max_payment_share": {
+      "median": 1.0,
+      "p95": 1.0,
+      "max": 1.0
+    },
+    "span_days": {
+      "median": 0.0,
+      "p95": 245.0,
+      "max": 596.0
+    },
+    "ratio_disbursed_to_recommended": {
+      "median": 1.0,
+      "p95": 1.0,
+      "max": 1.0
+    }
+  }
+}

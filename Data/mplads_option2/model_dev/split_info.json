@@ -1,0 +1,20 @@
+{
+  "n_train": 10475,
+  "n_val": 2245,
+  "n_test": 2245,
+  "train_sanction_date_range": [
+    "2024-07-09 00:00:00",
+    "2025-04-28 00:00:00"
+  ],
+  "val_sanction_date_range": [
+    "2025-04-28 00:00:00",
+    "2025-06-20 00:00:00"
+  ],
+  "test_sanction_date_range": [
+    "2025-06-20 00:00:00",
+    "2025-09-24 00:00:00"
+  ],
+  "train_positive_rate": 0.0482,
+  "val_positive_rate": 0.0601,
+  "test_positive_rate": 0.0953
+}

@@ -1,0 +1,82 @@
+{
+  "file": "Allocated_Limit_RajyaSabha_Cleaned.csv",
+  "row_count": 231,
+  "columns": [
+    "Sr. No.",
+    "State",
+    "MP Name",
+    "MP Term",
+    "MP Type",
+    "Allocated Amount (INR)"
+  ],
+  "column_profiles": {
+    "Sr. No.": {
+      "dtype": "int64",
+      "n": 231,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 231
+    },
+    "State": {
+      "dtype": "str",
+      "n": 231,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 32
+    },
+    "MP Name": {
+      "dtype": "str",
+      "n": 231,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 231
+    },
+    "MP Term": {
+      "dtype": "str",
+      "n": 231,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 13,
+      "top_values": {
+        "2024-2030": 65,
+        "2022-2028": 65,
+        "2026-2032": 51,
+        "2025-2031": 16,
+        "2020-2026": 10,
+        "2023-2029": 8,
+        "2024-2028": 6,
+        "2021-2027": 4,
+        "2025-2028": 2,
+        "2023-2026": 1,
+        "2026-2030": 1,
+        "2026-2029": 1,
+        "2026-2028": 1
+      }
+    },
+    "MP Type": {
+      "dtype": "str",
+      "n": 231,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 2,
+      "top_values": {
+        "Elected MP": 220,
+        "Nominated MP": 11
+      }
+    },
+    "Allocated Amount (INR)": {
+      "dtype": "float64",
+      "n": 231,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 73,
+      "numeric_parseable_pct": 100.0,
+      "min": 23800006.0,
+      "max": 310898953.29,
+      "mean": 145621135.5057143,
+      "median": 147000000.0,
+      "n_negative": 0,
+      "n_zero": 0
+    }
+  }
+}

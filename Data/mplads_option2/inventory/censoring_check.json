@@ -1,0 +1,153 @@
+{
+  "snapshot_date_proxy": "2026-09-02 00:00:00",
+  "n_sanctioned_works": 61560,
+  "overall_completion_rate": 0.2431,
+  "completion_rate_by_sanction_age_month_bucket": [
+    {
+      "sanction_age_month_bucket": 0,
+      "n": 760,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 1,
+      "n": 952,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 2,
+      "n": 791,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 3,
+      "n": 1014,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 4,
+      "n": 476,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 5,
+      "n": 1704,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 6,
+      "n": 2608,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 7,
+      "n": 3886,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 8,
+      "n": 3617,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 9,
+      "n": 4051,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 10,
+      "n": 3081,
+      "completion_rate": 0.0
+    },
+    {
+      "sanction_age_month_bucket": 11,
+      "n": 4342,
+      "completion_rate": 0.00023030861354214648
+    },
+    {
+      "sanction_age_month_bucket": 12,
+      "n": 3863,
+      "completion_rate": 0.16593321252912244
+    },
+    {
+      "sanction_age_month_bucket": 13,
+      "n": 4721,
+      "completion_rate": 0.1764456682906164
+    },
+    {
+      "sanction_age_month_bucket": 14,
+      "n": 4385,
+      "completion_rate": 0.29646522234891676
+    },
+    {
+      "sanction_age_month_bucket": 15,
+      "n": 3590,
+      "completion_rate": 0.31838440111420613
+    },
+    {
+      "sanction_age_month_bucket": 16,
+      "n": 3347,
+      "completion_rate": 0.43830295787272183
+    },
+    {
+      "sanction_age_month_bucket": 17,
+      "n": 3482,
+      "completion_rate": 0.5769672601952901
+    },
+    {
+      "sanction_age_month_bucket": 18,
+      "n": 2454,
+      "completion_rate": 0.5089649551752241
+    },
+    {
+      "sanction_age_month_bucket": 19,
+      "n": 2459,
+      "completion_rate": 0.7547783651891012
+    },
+    {
+      "sanction_age_month_bucket": 20,
+      "n": 2456,
+      "completion_rate": 0.7361563517915309
+    },
+    {
+      "sanction_age_month_bucket": 21,
+      "n": 1515,
+      "completion_rate": 0.8316831683168316
+    },
+    {
+      "sanction_age_month_bucket": 22,
+      "n": 1096,
+      "completion_rate": 0.7801094890510949
+    },
+    {
+      "sanction_age_month_bucket": 23,
+      "n": 697,
+      "completion_rate": 0.533715925394548
+    },
+    {
+      "sanction_age_month_bucket": 24,
+      "n": 194,
+      "completion_rate": 0.7835051546391752
+    },
+    {
+      "sanction_age_month_bucket": 25,
+      "n": 17,
+      "completion_rate": 1.0
+    },
+    {
+      "sanction_age_month_bucket": 26,
+      "n": 2,
+      "completion_rate": 1.0
+    }
+  ],
+  "correlation_completion_vs_sanction_age_days": 0.5734,
+  "youngest_quartile_completion_rate": 0.0,
+  "oldest_quartile_completion_rate": 0.6577,
+  "youngest_quartile_sanction_age_days_range": [
+    0,
+    265
+  ],
+  "oldest_quartile_sanction_age_days_range": [
+    498,
+    785
+  ]
+}

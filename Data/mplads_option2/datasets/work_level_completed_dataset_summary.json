@@ -1,0 +1,15 @@
+{
+  "n_rows": 14965,
+  "n_unique_work_ids": 14965,
+  "date_range_recommended": [
+    "2024-07-08 00:00:00",
+    "2025-08-31 00:00:00"
+  ],
+  "date_range_completion": [
+    "2024-08-12 00:00:00",
+    "2026-09-02 00:00:00"
+  ],
+  "has_underspend_rate": 0.0571,
+  "n_negative_days_recommended_to_completion": 0,
+  "n_negative_days_sanction_to_completion": 0
+}

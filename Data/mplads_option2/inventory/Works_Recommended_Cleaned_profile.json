@@ -1,0 +1,134 @@
+{
+  "file": "Works_Recommended_Cleaned.csv",
+  "row_count": 67000,
+  "columns": [
+    "Sr. No.",
+    "Work Category",
+    "Work ID",
+    "Work Type",
+    "Work Description",
+    "State",
+    "IDA District",
+    "IDA Office",
+    "Hon'ble Members of Parliament",
+    "Constituency",
+    "Recommended Date",
+    "Recommended Amount (INR)",
+    "Sanction Date"
+  ],
+  "column_profiles": {
+    "Sr. No.": {
+      "dtype": "int64",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 67000
+    },
+    "Work Category": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 4,
+      "top_values": {
+        "Normal/Others": 65527,
+        "Repair and Renovation": 1027,
+        "Trust and Society": 438,
+        "Bar and Associations": 8
+      }
+    },
+    "Work ID": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 61650
+    },
+    "Work Type": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 5440,
+      "missing_pct": 8.119,
+      "n_unique": 107
+    },
+    "Work Description": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 97,
+      "missing_pct": 0.145,
+      "n_unique": 61084
+    },
+    "State": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 36
+    },
+    "IDA District": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 743
+    },
+    "IDA Office": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 746
+    },
+    "Hon'ble Members of Parliament": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 529
+    },
+    "Constituency": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 529
+    },
+    "Recommended Date": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 565,
+      "date_parseable_pct": 100.0,
+      "min_date": "2024-07-08 00:00:00",
+      "max_date": "2026-08-24 00:00:00"
+    },
+    "Recommended Amount (INR)": {
+      "dtype": "float64",
+      "n": 67000,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "n_unique": 12893,
+      "numeric_parseable_pct": 100.0,
+      "min": 10.0,
+      "max": 47472048.0,
+      "mean": 537496.6367822388,
+      "median": 300000.0,
+      "n_negative": 0,
+      "n_zero": 0
+    },
+    "Sanction Date": {
+      "dtype": "str",
+      "n": 67000,
+      "missing": 5440,
+      "missing_pct": 8.119,
+      "n_unique": 647,
+      "date_parseable_pct": 91.881,
+      "min_date": "2024-07-09 00:00:00",
+      "max_date": "2026-09-02 00:00:00"
+    }
+  },
+  "unique_work_ids": 61650,
+  "duplicate_work_id_rows": 5350,
+  "work_id_missing": 0
+}

@@ -1,0 +1,62 @@
+{
+  "works_recommended_duplicate_work_ids": {
+    "n_work_ids_with_duplicates": 81,
+    "n_rows_involved": 5431
+  },
+  "works_recommended_duplicate_sample": {
+    "work_id": "NA-Construction of community centers and community halls",
+    "n_rows": 1321,
+    "rows_fully_identical": false,
+    "distinct_recommended_amounts": 68,
+    "distinct_recommended_dates": 302
+  },
+  "works_recommended_duplicate_groups_fully_identical_pct": 0.0,
+  "works_recommended_duplicate_groups_with_differing_values": 81,
+  "match_completed_to_recommended": {
+    "n_completed_works": 15000,
+    "n_matched_in_recommended": 14965,
+    "match_rate_pct": 99.767,
+    "n_completed_not_in_recommended": 35
+  },
+  "match_expenditure_to_recommended": {
+    "n_expenditure_unique_work_ids": 49104,
+    "n_matched_in_recommended": 43045,
+    "match_rate_pct": 87.661
+  },
+  "match_expenditure_to_completed": {
+    "n_expenditure_unique_work_ids": 49104,
+    "n_matched_in_completed": 12414,
+    "match_rate_pct": 25.281
+  },
+  "special_investigation_disbursed_vs_recommended": {
+    "n_joined_projects": 14965,
+    "n_disbursed_exceeds_recommended": 0,
+    "pct_exceeds": 0.0,
+    "n_disbursed_equals_recommended_exact": 13741,
+    "pct_equals_exact": 91.821,
+    "n_disbursed_below_recommended": 1219,
+    "pct_below": 8.146,
+    "ratio_min": 0.1819,
+    "ratio_median": 1.0,
+    "ratio_mean": 0.9971,
+    "ratio_p90": 1.0,
+    "ratio_p99": 1.0,
+    "ratio_max": 1.0,
+    "if_exceeds_sample_diffs": []
+  },
+  "reconciliation_completed_amount_vs_expenditure_sum": {
+    "n_completed_works_with_expenditure_rows": 12414,
+    "n_completed_works_total": 15000,
+    "coverage_pct": 82.76,
+    "n_exact_match": 12183,
+    "n_completed_amount_higher": 231,
+    "n_completed_amount_lower": 0,
+    "diff_median": 0.0,
+    "diff_mean": 7568.13,
+    "abs_diff_p90": 0.0
+  },
+  "date_order_sanction_before_recommended": 0,
+  "date_order_completion_before_recommended": 0,
+  "date_order_completion_before_sanction": 0,
+  "date_order_expenditure_before_recommended": 0
+}

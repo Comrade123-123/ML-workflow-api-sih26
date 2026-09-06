@@ -1,0 +1,659 @@
+{
+  "Works_Recommended_Cleaned.csv": {
+    "file": "Works_Recommended_Cleaned.csv",
+    "row_count": 67000,
+    "columns": [
+      "Sr. No.",
+      "Work Category",
+      "Work ID",
+      "Work Type",
+      "Work Description",
+      "State",
+      "IDA District",
+      "IDA Office",
+      "Hon'ble Members of Parliament",
+      "Constituency",
+      "Recommended Date",
+      "Recommended Amount (INR)",
+      "Sanction Date"
+    ],
+    "column_profiles": {
+      "Sr. No.": {
+        "dtype": "int64",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 67000
+      },
+      "Work Category": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 4,
+        "top_values": {
+          "Normal/Others": 65527,
+          "Repair and Renovation": 1027,
+          "Trust and Society": 438,
+          "Bar and Associations": 8
+        }
+      },
+      "Work ID": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 61650
+      },
+      "Work Type": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 5440,
+        "missing_pct": 8.119,
+        "n_unique": 107
+      },
+      "Work Description": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 97,
+        "missing_pct": 0.145,
+        "n_unique": 61084
+      },
+      "State": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 36
+      },
+      "IDA District": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 743
+      },
+      "IDA Office": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 746
+      },
+      "Hon'ble Members of Parliament": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 529
+      },
+      "Constituency": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 529
+      },
+      "Recommended Date": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 565,
+        "date_parseable_pct": 100.0,
+        "min_date": "2024-07-08 00:00:00",
+        "max_date": "2026-08-24 00:00:00"
+      },
+      "Recommended Amount (INR)": {
+        "dtype": "float64",
+        "n": 67000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 12893,
+        "numeric_parseable_pct": 100.0,
+        "min": 10.0,
+        "max": 47472048.0,
+        "mean": 537496.6367822388,
+        "median": 300000.0,
+        "n_negative": 0,
+        "n_zero": 0
+      },
+      "Sanction Date": {
+        "dtype": "str",
+        "n": 67000,
+        "missing": 5440,
+        "missing_pct": 8.119,
+        "n_unique": 647,
+        "date_parseable_pct": 91.881,
+        "min_date": "2024-07-09 00:00:00",
+        "max_date": "2026-09-02 00:00:00"
+      }
+    },
+    "unique_work_ids": 61650,
+    "duplicate_work_id_rows": 5350,
+    "work_id_missing": 0
+  },
+  "Works_Completed_Cleaned.csv": {
+    "file": "Works_Completed_Cleaned.csv",
+    "row_count": 15000,
+    "columns": [
+      "Sr. No.",
+      "Work Category",
+      "Work ID",
+      "Work Type",
+      "Work Description",
+      "State",
+      "IDA District",
+      "IDA Office",
+      "Hon'ble Members of Parliament",
+      "Constituency",
+      "Has Image",
+      "Completion Date",
+      "Amount Disbursed (INR)"
+    ],
+    "column_profiles": {
+      "Sr. No.": {
+        "dtype": "int64",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 15000
+      },
+      "Work Category": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 3,
+        "top_values": {
+          "Normal/Others": 14827,
+          "Repair and Renovation": 145,
+          "Trust and Society": 28
+        }
+      },
+      "Work ID": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 15000
+      },
+      "Work Type": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 95
+      },
+      "Work Description": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 55,
+        "missing_pct": 0.367,
+        "n_unique": 13551
+      },
+      "State": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 32
+      },
+      "IDA District": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 524
+      },
+      "IDA Office": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 525
+      },
+      "Hon'ble Members of Parliament": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 416
+      },
+      "Constituency": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 416
+      },
+      "Has Image": {
+        "dtype": "bool",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 2,
+        "top_values": {
+          "True": 9948,
+          "False": 5052
+        }
+      },
+      "Completion Date": {
+        "dtype": "str",
+        "n": 15000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 573,
+        "date_parseable_pct": 100.0,
+        "min_date": "2024-08-12 00:00:00",
+        "max_date": "2026-09-02 00:00:00"
+      },
+      "Amount Disbursed (INR)": {
+        "dtype": "float64",
+        "n": 15000,
+        "missing": 5,
+        "missing_pct": 0.033,
+        "n_unique": 5417,
+        "numeric_parseable_pct": 99.967,
+        "min": 10000.0,
+        "max": 46470400.0,
+        "mean": 501043.6387062354,
+        "median": 269328.0,
+        "n_negative": 0,
+        "n_zero": 0
+      }
+    },
+    "unique_work_ids": 15000,
+    "duplicate_work_id_rows": 0,
+    "work_id_missing": 0
+  },
+  "Expenditure_Cleaned.csv": {
+    "file": "Expenditure_Cleaned.csv",
+    "row_count": 73000,
+    "columns": [
+      "Sr. No.",
+      "Work Type",
+      "Work ID",
+      "State",
+      "IDA District",
+      "IDA Office",
+      "Hon'ble Members of Parliament",
+      "Constituency",
+      "Expenditure Date",
+      "Vendor Name",
+      "Payment Status",
+      "Fund Disbursed Amount (INR)"
+    ],
+    "column_profiles": {
+      "Sr. No.": {
+        "dtype": "int64",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 73000
+      },
+      "Work Type": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 107
+      },
+      "Work ID": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 49104
+      },
+      "State": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 35
+      },
+      "IDA District": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 730
+      },
+      "IDA Office": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 733
+      },
+      "Hon'ble Members of Parliament": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 527
+      },
+      "Constituency": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 527
+      },
+      "Expenditure Date": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 678,
+        "date_parseable_pct": 100.0,
+        "min_date": "2024-08-02 00:00:00",
+        "max_date": "2026-09-02 00:00:00"
+      },
+      "Vendor Name": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 22601
+      },
+      "Payment Status": {
+        "dtype": "str",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 2,
+        "top_values": {
+          "Payment Success": 69537,
+          "Payment In-Progress": 3463
+        }
+      },
+      "Fund Disbursed Amount (INR)": {
+        "dtype": "float64",
+        "n": 73000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 28271,
+        "numeric_parseable_pct": 100.0,
+        "min": 1.0,
+        "max": 20786350.0,
+        "mean": 322093.47098150686,
+        "median": 189000.0,
+        "n_negative": 0,
+        "n_zero": 0
+      }
+    },
+    "unique_work_ids": 49104,
+    "duplicate_work_id_rows": 23896,
+    "work_id_missing": 0
+  },
+  "Allocated_Limit_LokSabha_Cleaned.csv": {
+    "file": "Allocated_Limit_LokSabha_Cleaned.csv",
+    "row_count": 543,
+    "columns": [
+      "Sr. No.",
+      "State",
+      "MP Name",
+      "Constituency",
+      "Allocated Amount (INR)"
+    ],
+    "column_profiles": {
+      "Sr. No.": {
+        "dtype": "int64",
+        "n": 543,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 543
+      },
+      "State": {
+        "dtype": "str",
+        "n": 543,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 36
+      },
+      "MP Name": {
+        "dtype": "str",
+        "n": 543,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 543
+      },
+      "Constituency": {
+        "dtype": "str",
+        "n": 543,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 542
+      },
+      "Allocated Amount (INR)": {
+        "dtype": "float64",
+        "n": 543,
+        "missing": 1,
+        "missing_pct": 0.184,
+        "n_unique": 152,
+        "numeric_parseable_pct": 99.816,
+        "min": 49000000.0,
+        "max": 327477390.86,
+        "mean": 153469655.5824908,
+        "median": 147000000.0,
+        "n_negative": 0,
+        "n_zero": 0
+      }
+    }
+  },
+  "Allocated_Limit_RajyaSabha_Cleaned.csv": {
+    "file": "Allocated_Limit_RajyaSabha_Cleaned.csv",
+    "row_count": 231,
+    "columns": [
+      "Sr. No.",
+      "State",
+      "MP Name",
+      "MP Term",
+      "MP Type",
+      "Allocated Amount (INR)"
+    ],
+    "column_profiles": {
+      "Sr. No.": {
+        "dtype": "int64",
+        "n": 231,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 231
+      },
+      "State": {
+        "dtype": "str",
+        "n": 231,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 32
+      },
+      "MP Name": {
+        "dtype": "str",
+        "n": 231,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 231
+      },
+      "MP Term": {
+        "dtype": "str",
+        "n": 231,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 13,
+        "top_values": {
+          "2024-2030": 65,
+          "2022-2028": 65,
+          "2026-2032": 51,
+          "2025-2031": 16,
+          "2020-2026": 10,
+          "2023-2029": 8,
+          "2024-2028": 6,
+          "2021-2027": 4,
+          "2025-2028": 2,
+          "2023-2026": 1,
+          "2026-2030": 1,
+          "2026-2029": 1,
+          "2026-2028": 1
+        }
+      },
+      "MP Type": {
+        "dtype": "str",
+        "n": 231,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 2,
+        "top_values": {
+          "Elected MP": 220,
+          "Nominated MP": 11
+        }
+      },
+      "Allocated Amount (INR)": {
+        "dtype": "float64",
+        "n": 231,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 73,
+        "numeric_parseable_pct": 100.0,
+        "min": 23800006.0,
+        "max": 310898953.29,
+        "mean": 145621135.5057143,
+        "median": 147000000.0,
+        "n_negative": 0,
+        "n_zero": 0
+      }
+    }
+  },
+  "Amount_Consented_Calamity_Cleaned.csv": {
+    "file": "Amount_Consented_Calamity_Cleaned.csv",
+    "row_count": 20,
+    "columns": [
+      "Sr. No.",
+      "Calamity Type",
+      "Calamity Name",
+      "MP Name",
+      "MP Term",
+      "Date of Consent",
+      "Consent Amount (INR)"
+    ],
+    "column_profiles": {
+      "Sr. No.": {
+        "dtype": "int64",
+        "n": 20,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 20,
+        "top_values": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1
+        }
+      },
+      "Calamity Type": {
+        "dtype": "str",
+        "n": 20,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 2,
+        "top_values": {
+          "National Calamity": 12,
+          "State Calamity": 8
+        }
+      },
+      "Calamity Name": {
+        "dtype": "str",
+        "n": 20,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 4,
+        "top_values": {
+          "Flood 2025 in Punjab": 9,
+          "Wayanad landslides 2024": 6,
+          "Meppadi landslides 2024": 3,
+          "Vilangad Landslides 2024": 2
+        }
+      },
+      "MP Name": {
+        "dtype": "str",
+        "n": 20,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 16,
+        "top_values": {
+          "Shri Narain Dass Gupta": 2,
+          "Shri P. P. Suneer": 2,
+          "Dr. John Brittas": 2,
+          "Smt. P. T. Usha": 2,
+          "Shri Hardeep Singh Puri": 1,
+          "Dr. Ashok Kumar Mittal": 1,
+          "Shri Sanjay Singh": 1,
+          "Shri Harbhajan Singh": 1,
+          "Dr. Sandeep Kumar Pathak": 1,
+          "Dr. Parmar Jashvantsinh Salamsinh": 1,
+          "Dr. Vikramjit Singh Sahney": 1,
+          "Shri Abdul Wahab": 1,
+          "Dr. V. Sivadasan": 1,
+          "Shri A. A. Rahim": 1,
+          "Shri Jose K. Mani": 1
+        }
+      },
+      "MP Term": {
+        "dtype": "str",
+        "n": 20,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 4,
+        "top_values": {
+          "2022-2028": 8,
+          "2024-2030": 7,
+          "2021-2027": 4,
+          "2020-2026": 1
+        }
+      },
+      "Date of Consent": {
+        "dtype": "str",
+        "n": 20,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 16,
+        "date_parseable_pct": 100.0,
+        "min_date": "2024-09-10 00:00:00",
+        "max_date": "2025-11-17 00:00:00"
+      },
+      "Consent Amount (INR)": {
+        "dtype": "int64",
+        "n": 20,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "n_unique": 5,
+        "numeric_parseable_pct": 100.0,
+        "min": 500000.0,
+        "max": 10000000.0,
+        "mean": 5225000.0,
+        "median": 2500000.0,
+        "n_negative": 0,
+        "n_zero": 0,
+        "top_values": {
+          "2500000": 8,
+          "10000000": 6,
+          "7500000": 3,
+          "500000": 2,
+          "1000000": 1
+        }
+      }
+    }
+  }
+}

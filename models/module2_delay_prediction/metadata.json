@@ -1,0 +1,9 @@
+{
+  "trained_at": "2026-09-05T13:34:49.679191+00:00",
+  "model_version": "2026-09-05T13:34:49.679191+00:00",
+  "classes": [
+    "AT_RISK",
+    "LIKELY_DELAYED",
+    "ON_TRACK"
+  ]
+}
